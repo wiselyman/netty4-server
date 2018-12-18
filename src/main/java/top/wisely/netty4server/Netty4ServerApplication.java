@@ -12,6 +12,9 @@ import top.wisely.netty4server.codec.NovaDecoder;
 import top.wisely.netty4server.codec.NovaEncoder;
 import top.wisely.netty4server.handler.NovaHandler;
 
+import java.util.Scanner;
+
+
 @SpringBootApplication
 public class Netty4ServerApplication {
 
@@ -37,6 +40,9 @@ public class Netty4ServerApplication {
 							.addHandler("nova",new NovaHandler())
 					)
 					.port(9999).bindNow();
+
+			new Scanner(System.in).nextLine();
+
 		};
 	}
 
