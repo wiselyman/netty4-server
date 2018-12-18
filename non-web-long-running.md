@@ -34,6 +34,6 @@ public class Netty4ServerApplication {
 
 ```
 
-这时候程序即可在后台运行，在控制台随便输入一行字按回车即可关闭应用。
+这时候应用即可在后台运行，在控制台随便输入一行字按回车即可关闭应用。
 
 源码地址:[https://github.com/wiselyman/netty4-server.git](https://github.com/wiselyman/netty4-server.git)
