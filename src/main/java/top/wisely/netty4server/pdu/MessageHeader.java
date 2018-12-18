@@ -1,4 +1,4 @@
-package top.wisely.camelnetty4server.pdu;
+package top.wisely.netty4server.pdu;
 
 import io.netty.buffer.ByteBuf;
 import lombok.Data;
@@ -16,7 +16,7 @@ public class MessageHeader {
     public MessageHeader(){}
 
     public MessageHeader(ByteBuf byteBuf){
-        byteBuf.readShort(); // 因为使用了0XCC的分隔符，下一个包会带上上一个包的校验码，下一个包需要丢弃上一个包2个字节的校验码
+//        byteBuf.readShort(); // 因为使用了0XCC的分隔符，下一个包会带上上一个包的校验码，下一个包需要丢弃上一个包2个字节的校验码
         this.startChar = byteBuf.readByte();
         this.address = byteBuf.readShort();
         this.opCode = byteBuf.readByte();

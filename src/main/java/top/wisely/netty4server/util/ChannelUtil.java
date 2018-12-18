@@ -1,4 +1,4 @@
-package top.wisely.camelnetty4server.util;
+package top.wisely.netty4server.util;
 
 import io.netty.channel.ChannelHandlerContext;
 

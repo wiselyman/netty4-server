@@ -1,4 +1,4 @@
-package top.wisely.camelnetty4server.codec;
+package top.wisely.netty4server.codec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandler;
@@ -6,14 +6,14 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToMessageDecoder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import top.wisely.camelnetty4server.constant.OpCodeResponse;
-import top.wisely.camelnetty4server.pdu.Message;
-import top.wisely.camelnetty4server.pdu.MessageBody;
-import top.wisely.camelnetty4server.pdu.MessageHeader;
-import top.wisely.camelnetty4server.pdu.reports.HeartBeat;
-import top.wisely.camelnetty4server.pdu.reports.QueryStatus;
-import top.wisely.camelnetty4server.pdu.reports.ScreenShot;
-import top.wisely.camelnetty4server.util.EscapeUtils;
+import top.wisely.netty4server.constant.OpCodeResponse;
+import top.wisely.netty4server.pdu.Message;
+import top.wisely.netty4server.pdu.MessageBody;
+import top.wisely.netty4server.pdu.MessageHeader;
+import top.wisely.netty4server.pdu.reports.HeartBeat;
+import top.wisely.netty4server.pdu.reports.QueryStatus;
+import top.wisely.netty4server.pdu.reports.ScreenShot;
+import top.wisely.netty4server.util.EscapeUtils;
 
 import java.util.List;
 

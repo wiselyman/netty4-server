@@ -1,12 +1,12 @@
-package top.wisely.camelnetty4server.protocol;
+package top.wisely.netty4server.protocol;
 
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import lombok.Getter;
 import lombok.Setter;
-import top.wisely.camelnetty4server.util.ChecksumUtils;
-import top.wisely.camelnetty4server.util.EscapeUtils;
+import top.wisely.netty4server.util.ChecksumUtils;
+import top.wisely.netty4server.util.EscapeUtils;
 
 import java.nio.ByteBuffer;
 

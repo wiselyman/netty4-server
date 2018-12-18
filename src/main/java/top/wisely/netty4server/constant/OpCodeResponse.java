@@ -1,4 +1,4 @@
-package top.wisely.camelnetty4server.constant;
+package top.wisely.netty4server.constant;
 
 public class OpCodeResponse {
     public static final byte HEARTBEAT_RESP = (byte)0X00;

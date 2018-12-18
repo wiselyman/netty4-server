@@ -1,9 +1,9 @@
-package top.wisely.camelnetty4server.service;
+package top.wisely.netty4server.service;
 
 import io.netty.channel.ChannelHandlerContext;
-import top.wisely.camelnetty4server.protocol.DeviceStatusCommand;
-import top.wisely.camelnetty4server.protocol.NovaCommand;
-import top.wisely.camelnetty4server.util.ChannelUtil;
+import top.wisely.netty4server.protocol.DeviceStatusCommand;
+import top.wisely.netty4server.protocol.NovaCommand;
+import top.wisely.netty4server.util.ChannelUtil;
 
 public class NovaService {
 

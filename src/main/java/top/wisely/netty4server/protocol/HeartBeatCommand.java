@@ -1,4 +1,4 @@
-package top.wisely.camelnetty4server.protocol;
+package top.wisely.netty4server.protocol;
 
 import io.netty.buffer.Unpooled;
 import lombok.Getter;

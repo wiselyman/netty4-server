@@ -1,10 +1,10 @@
-package top.wisely.camelnetty4server.codec;
+package top.wisely.netty4server.codec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 import org.springframework.stereotype.Component;
-import top.wisely.camelnetty4server.protocol.NovaCommand;
+import top.wisely.netty4server.protocol.NovaCommand;
 
 
 

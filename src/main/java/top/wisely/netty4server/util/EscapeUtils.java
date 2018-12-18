@@ -1,9 +1,9 @@
-package top.wisely.camelnetty4server.util;
+package top.wisely.netty4server.util;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.util.ByteProcessor;
 import org.apache.commons.lang3.ArrayUtils;
-import top.wisely.camelnetty4server.protocol.NovaCommand;
+import top.wisely.netty4server.protocol.NovaCommand;
 
 import java.util.ArrayList;
 import java.util.List;

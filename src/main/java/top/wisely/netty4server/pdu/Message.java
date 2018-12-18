@@ -1,4 +1,4 @@
-package top.wisely.camelnetty4server.pdu;
+package top.wisely.netty4server.pdu;
 
 import lombok.Data;
 

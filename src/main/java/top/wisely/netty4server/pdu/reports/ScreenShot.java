@@ -1,9 +1,9 @@
-package top.wisely.camelnetty4server.pdu.reports;
+package top.wisely.netty4server.pdu.reports;
 
 import io.netty.buffer.ByteBuf;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import top.wisely.camelnetty4server.pdu.MessageBody;
+import top.wisely.netty4server.pdu.MessageBody;
 
 @NoArgsConstructor
 @Data
