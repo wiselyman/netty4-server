@@ -193,6 +193,8 @@ public class AdditionalDelimiterBasedFrameDecoder extends ByteToMessageDecoder {
 
         if (minDelim != null) {
             int minDelimLength = minDelim.capacity();
+            final int checkLength = 2;
+            minDelimLength = minDelimLength + checkLength;
             ByteBuf frame;
 
             if (discardingTooLongFrame) {
@@ -218,8 +220,6 @@ public class AdditionalDelimiterBasedFrameDecoder extends ByteToMessageDecoder {
 
             if (stripDelimiter) {
                 frame = buffer.readRetainedSlice(minFrameLength);
-                final int checkLength = 2;
-                minDelimLength = minDelimLength + checkLength;
                 buffer.skipBytes(minDelimLength);
             } else {
                 frame = buffer.readRetainedSlice(minFrameLength + minDelimLength);
