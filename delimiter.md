@@ -30,3 +30,4 @@ minDelimLength = minDelimLength + checkLength;
 new AdditionalDelimiterBasedFrameDecoder(4096, Unpooled.copiedBuffer(Unpooled.buffer(1).writeByte(0xCC).array())
 ```
 
+源码地址：[https://github.com/wiselyman/netty4-server.git](https://github.com/wiselyman/netty4-server.git)
