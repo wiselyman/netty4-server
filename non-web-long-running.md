@@ -1,4 +1,4 @@
-### Spring Boot下非web后台运行项目的实现
+### Spring Boot下非web后台长运行应用的实现
 
 测试环境：Spring Boot 2.1.1.RELEASE
 
