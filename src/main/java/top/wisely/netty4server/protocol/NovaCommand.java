@@ -23,7 +23,7 @@ public abstract class NovaCommand {
     private short begin = BEGIN;
 
     //设备地址
-    private short address;
+    private int address;
 
     //指令码
     private short opCode;

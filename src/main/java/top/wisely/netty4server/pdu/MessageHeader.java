@@ -8,7 +8,7 @@ public class MessageHeader {
 
     private byte startChar;
 
-    private short address;
+    private int address;
 
     private short opCode;
 
