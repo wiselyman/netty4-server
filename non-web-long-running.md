@@ -8,7 +8,7 @@
 spring.main.web-application-type=none
 ```
 
-添加之后，应用将不再启动web容器，在`CommandLineRunner`执行完毕后会自动退出，我们这时我们需要在最后加上:`new Scanner(System.in).nextLine()`,如：
+添加之后，应用将不再启动web容器，在`CommandLineRunner`执行完毕后会自动退出，若我们需要长时间运行在后台的应用需在最后加上:`new Scanner(System.in).nextLine()`,如：
 
 ``` java
 @SpringBootApplication
